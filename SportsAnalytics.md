@@ -12,7 +12,7 @@ Most of the packages are sport-specific and are grouped as such.  However, we
 also include a **General** section for packages that provide ancillary
 functionality relevant to sports analytics (e.g., team-themed color palettes),
 and a **Modeling** section for packages useful for statistical modeling.
-Throughout the task view, and collected in the **Related Links** section at the
+Throughout the task view, and collected in the **Related links** section at the
 end, we have included a list of selected books and articles that use some of
 these packages in substantive ways.  Our goal in compiling this list is to help
 researchers find the tools they need to complete their work in R.
@@ -120,13 +120,13 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   Access to data exposed by the [NHL API](https://gitlab.com/dword4/nhlapi) is provided by the `r pkg("nhlapi")` and `r pkg("nhlscrape")` packages.
 -   `r pkg("fastRhockey")` provides API wrappers for the NHL and Premier Hockey Federation (PHF), formerly known as the National Women's Hockey League (NWHL).
 
+#### Racket sports 🎾🏓🏸
+
+-   `r pkg("squashinformr")` consists of functions for retrieving data on the Professional Squash Association World Tour from [SquashInfo](http://www.squashinfo.com/).
+
 #### Softball 🥎
 
 -   `r pkg("runexp")` provides methods for estimating runs scored in softball. In particular, `r pkg("runexp")` centers around theoretical expectation using discrete Markov chains and empirical distribution using multinomial random simulation.
-
-#### Squash
-
--   `r pkg("squashinformr")` consists of functions for retrieving data on the Professional Squash Association World Tour from [SquashInfo[(http://www.squashinfo.com/).
 
 #### Swimming 🏊
 
