@@ -124,6 +124,10 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 -   `r pkg("runexp")` provides methods for estimating runs scored in softball. In particular, `r pkg("runexp")` centers around theoretical expectation using discrete Markov chains and empirical distribution using multinomial random simulation.
 
+#### Squash
+
+-   `r pkg("squashinformr")` consists of functions for retrieving data on the Professional Squash Association World Tour from [SquashInfo[(http://www.squashinfo.com/).
+
 #### Swimming 🏊
 
 -   `r pkg("SwimmeR")` reads swimming results in a variety of formats and returns results in tidy data frame. It also includes functions for converting times between short-course yards (SCY), short-course meters (SCM), and long-course meters (LCM).
