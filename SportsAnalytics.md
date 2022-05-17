@@ -35,7 +35,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("nbapalettes")` contains color palettes inspired by NBA team jersey colors.
 -   `r pkg("sportyR")` contains functions for creating **ggplot2** representations of sports playing surfaces pursuant to rule-book specifications. This is particularly useful for plotting player tracking data.
 -   `r pkg("SportsTour")` provides functions for displaying tournament fixtures using knock-out and round robin methods.
--   `r pkg("SportsAnalytics")`'s goal is to provide infrastructure to perform general sports analytics. However, currently it appears to be incomplete and currently only contains a few data sets and functions.
 -   `r pkg("TouRnament")` consists of two functions: 1) Creating league tables based on results and 2) Creating a match schedule for a league.
 
 ### Sport-Specific Packages
@@ -86,7 +85,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("uncmbb")` contains data on University of North Carolina (at Chapel Hill) Men's Basketball Results since the 1949-50 season.
 -   `r pkg("BasketballAnalyzeR")` accompanies the book [*Basketball Data Science With Applications in R*](https://www.routledge.com/Basketball-Data-Science-With-Applications-in-R/Zuccolotto-Manisera/p/book/9781138600799). This package includes data and functions to analyze and visualize basketball data.
 -   `r pkg("NBAloveR")` is an R interface to access basketball data from [Basketball Reference](https://www.basketball-reference.com) API. This package also contains functions to help users with analyzing basketball data.
--   `r pkg("SpatialBall")` helps with spatial analysis of NBA data, in particular, generating offensive and defensive shot charts for teams, players, and seasons.
 -   `r pkg("wehoop")` provides functions for accessing women's college basketball and WNBA data from the [ESPN](https://www.espn.com) API.
 -   `r pkg("hoopR")` consists of functions for accessing men's college basketball and NBA data from various sources, including [ESPN](https://www.espn.com), [NBA Stats API](https://www.nba.com/stats), and [Ken Pomeroy's college basketball ratings](https://www.kenpom.com).
 
