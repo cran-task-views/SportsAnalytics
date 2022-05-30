@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2022-05-11
+version: 2022-05-30
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -64,6 +64,8 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("footballpenaltiesBL")` contains data and plotting functions for analyzing penalty kicks in the [German Men's Bundesliga](https://www.bundesliga.com/) from 1963-64 to 2016-17.
 -   `r pkg("footBayes")` consists of functions for fitting widely known soccer models (double Poisson, bivariate Poisson, Skellam, Student's t) through Hamiltonian Monte Carlo and Maximum Likelihood estimation approaches using Stan. The package also provides tools for visualizing team strengths and predicting match outcomes.
 -   `r pkg("itscalledsoccer")` enables access to American soccer (MLS, NWSL, and USL) data through the [American Soccer Analysis app API](https://app.americansocceranalysis.com/).
+-   `r pkg("FPLdata")` contains functions for retrieving player attributes on [Fantasy Premier League](https://fantasy.premierleague.com/).
+-   `r pkg("EUfootball")` provides European football match results for top leagues in England, France, Germany, Italy, Spain, Netherlands, and Turkey from 2010-2011 to 2019-2020.
 
 #### Australian Rules Football 🏉
 
@@ -87,6 +89,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("NBAloveR")` is an R interface to access basketball data from [Basketball Reference](https://www.basketball-reference.com) API. This package also contains functions to help users with analyzing basketball data.
 -   `r pkg("wehoop")` provides functions for accessing women's college basketball and WNBA data from the [ESPN](https://www.espn.com) API.
 -   `r pkg("hoopR")` consists of functions for accessing men's college basketball and NBA data from various sources, including [ESPN](https://www.espn.com), [NBA Stats API](https://www.nba.com/stats), and [Ken Pomeroy's college basketball ratings](https://www.kenpom.com).
+-   `r pkg("toRvik")` includes functions of scraping men's college basketball data on advanced metrics, player and game statistics, and more from [Barttorvik](https://barttorvik.com/).
 
 #### Chess ♟
 
