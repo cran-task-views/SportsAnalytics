@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2022-05-30
+version: 2022-06-15
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -56,9 +56,9 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 #### Association Football (Soccer) ⚽
 
+-   `r pkg("worldfootballR")` provides clean and tidy football data from a number of popular sites, including [FBref](https://fbref.com/en/), transfer and valuations data from [Transfermarkt](https://www.transfermarkt.com/) and shooting location data from [Understat](https://understat.com/) and [fotmob](https://www.fotmob.com/).
 -   European soccer data is available through the `r pkg("engsoccerdata")` package, which contains match results for English and other European soccer leagues dating back to 1871.
 -   `r pkg("socceR")` provides functions for evaluating soccer predictions and simulating results from soccer matches and tournament.
--   `r pkg("fbRanks")` helps with estimating team strengths and rankings using time dependent Poisson regression and data on number of goals scored.
 -   `r pkg("ggsoccer")` provides functions for visualizing soccer event data in **ggplot2**.
 -   `r pkg("qqr")` is a collection of [Brazilian Soccer Championship](https://brasileirao.cbf.com.br/) data on match statistics since 2014.
 -   `r pkg("footballpenaltiesBL")` contains data and plotting functions for analyzing penalty kicks in the [German Men's Bundesliga](https://www.bundesliga.com/) from 1963-64 to 2016-17.
@@ -104,6 +104,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("yorkr")` provides functions for analyzing statistics of cricket players and teams based on [Cricsheet](https://cricsheet.org) data.
 -   `r pkg("cricketr")` is a collection of tools for analyzing cricket performances of players and teams based on [ESPN Cricinfo Statsguru](https://stats.espncricinfo.com/ci/engine/stats) data.
 -   `r pkg("cricketdata")` includes functions to obtain international cricket data from two major sources, [ESPNCricinfo](https://www.espncricinfo.com/) and [Cricsheet](https://cricsheet.org/).
+-   `r pkg("howzatR")` consists of functions for calculating various cricket statistics.
 
 #### Esports 🎮
 
