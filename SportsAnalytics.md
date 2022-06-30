@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2022-06-15
+version: 2022-06-30
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -108,7 +108,9 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 #### Esports 🎮
 
--   `r pkg("RDota2")` contains functions for retreiving data for the video game [Dota2 from the Steam API](https://store.steampowered.com/app/570/Dota_2).
+-   `r pkg("CSGo")` collects Counter-Strike Global Offensive data from the [Steam API](https://developer.valvesoftware.com/wiki/Steam_Web_API).
+-   `r pkg("rbedrock")` supports data analysis and management of Minecraft (Bedrock Edition).
+-   `r pkg("ROpenDota")`, `r pkg("opendotaR")`, and `r pkg("RDota2")` extract Dota2 data from the [OpenDota](https://www.opendota.com/) and [Steam](https://developer.valvesoftware.com/wiki/Steam_Web_API) APIs.
 
 #### GPS Tracking 📍
 
@@ -150,6 +152,7 @@ In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("Machin
 
 #### Betting
 
+-   `r pkg("oddsapiR")` provides tools for accessing sports odds from [The Odds API](https://the-odds-api.com).
 -   `r pkg("odds.converter")` contributes functions for converting common sports betting odds types, including US odds, Hong Kong odds, Decimal odds, Indonesian odds, Malaysian odds, and raw probability.
 -   `r pkg("implied")` is a collection of functions that convert between bookmaker odds and probabilities, based on various algorithms.
 -   `r pkg("pinnacle.data")` contains [Pinnacle](https://www.pinnacle.com/) market odds, highlighted by a dataset of all wagering lines for the 2016 MLB season.
