@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2022-06-30
+version: 2022-08-08
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -60,7 +60,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   European soccer data is available through the `r pkg("engsoccerdata")` package, which contains match results for English and other European soccer leagues dating back to 1871.
 -   `r pkg("socceR")` provides functions for evaluating soccer predictions and simulating results from soccer matches and tournament.
 -   `r pkg("ggsoccer")` provides functions for visualizing soccer event data in **ggplot2**.
--   `r pkg("qqr")` is a collection of [Brazilian Soccer Championship](https://brasileirao.cbf.com.br/) data on match statistics since 2014.
 -   `r pkg("footballpenaltiesBL")` contains data and plotting functions for analyzing penalty kicks in the [German Men's Bundesliga](https://www.bundesliga.com/) from 1963-64 to 2016-17.
 -   `r pkg("footBayes")` consists of functions for fitting widely known soccer models (double Poisson, bivariate Poisson, Skellam, Student's t) through Hamiltonian Monte Carlo and Maximum Likelihood estimation approaches using Stan. The package also provides tools for visualizing team strengths and predicting match outcomes.
 -   `r pkg("itscalledsoccer")` enables access to American soccer (MLS, NWSL, and USL) data through the [American Soccer Analysis app API](https://app.americansocceranalysis.com/).
