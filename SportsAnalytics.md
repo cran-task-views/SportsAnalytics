@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2022-08-08
+version: 2022-08-23
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -119,6 +119,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 #### Hockey 🏒
 
+-   `r pkg("hockeyR")` contains functions to load raw NHL play-by-play data from [NHL.com](https://nhl.com). Additionally, it contains functions for scraping [www.hockey-reference.com](https://www.hockey-reference.com) including standings, player stats, and jersey number history.
 -   `r pkg("NHLData")` contains scores from NHL games dating back to 1917. Data are stored one season at a time and contains scores for every game during a particular season.
 -   Access to data exposed by the [NHL API](https://gitlab.com/dword4/nhlapi) is provided by the `r pkg("nhlapi")` and `r pkg("nhlscrape")` packages.
 -   `r pkg("fastRhockey")` provides API wrappers for the NHL and Premier Hockey Federation (PHF), formerly known as the National Women's Hockey League (NWHL).
