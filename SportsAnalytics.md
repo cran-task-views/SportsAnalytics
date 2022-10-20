@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2022-08-23
+version: 2022-10-20
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -17,7 +17,8 @@ end, we have included a list of selected books and articles that use some of
 these packages in substantive ways.  Our goal in compiling this list is to help
 researchers find the tools they need to complete their work in R.
 
-To be considered for inclusion, the package must be useful for conducting sports analytics. Most packages provide functionality for some combination of:
+To be considered for inclusion, the package must be useful for conducting sports analytics. 
+Most packages provide functionality for some combination of:
 
 #. acquiring data for a specific sport or league
 #. performing common computations on sport-specific data
@@ -27,15 +28,6 @@ Esports and sports betting packages are within scope.
 The list of packages is aspirationally comprehensive. 
 If there is a sports analytics package on CRAN that we have missed, please let us know. 
 Contributions are always welcome, and encouraged -- please see the linked GitHub repository for details. 
-
-### General
-
--   `r pkg("teamcolors")` provides color palettes, **ggplot2** themes, **xaringan** themes, and logos for professional teams across a variety of sports and leagues. `r pkg("teamcolors")` was originally designed to create the data graphics in [Lopez, et al. (2018)](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-12/issue-4/How-often-does-the-best-team-win-A-unified-approach/10.1214/18-AOAS1165) (`r doi("10.1214/18-AOAS1165")`).
--   `r pkg("colorr")` contains color palettes for professional sports teams in the EPL, MLB, NBA, NHL, and NFL.
--   `r pkg("nbapalettes")` contains color palettes inspired by NBA team jersey colors.
--   `r pkg("sportyR")` contains functions for creating **ggplot2** representations of sports playing surfaces pursuant to rule-book specifications. This is particularly useful for plotting player tracking data.
--   `r pkg("SportsTour")` provides functions for displaying tournament fixtures using knock-out and round robin methods.
--   `r pkg("TouRnament")` consists of two functions: 1) Creating league tables based on results and 2) Creating a match schedule for a league.
 
 ### Sport-Specific Packages
 
@@ -124,10 +116,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   Access to data exposed by the [NHL API](https://gitlab.com/dword4/nhlapi) is provided by the `r pkg("nhlapi")` and `r pkg("nhlscrape")` packages.
 -   `r pkg("fastRhockey")` provides API wrappers for the NHL and Premier Hockey Federation (PHF), formerly known as the National Women's Hockey League (NWHL).
 
-#### Racket Sports 🎾🏓🏸
-
--   `r pkg("squashinformr")` consists of functions for retrieving data on the Professional Squash Association World Tour from [SquashInfo](http://www.squashinfo.com/).
-
 #### Softball 🥎
 
 -   `r pkg("runexp")` provides methods for estimating runs scored in softball. In particular, `r pkg("runexp")` centers around theoretical expectation using discrete Markov chains and empirical distribution using multinomial random simulation.
@@ -145,6 +133,16 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 -   `r pkg("volleystat")` contains match statistics from the [German Volleyball Bundesliga](https://www.volleyball-bundesliga.de/) from 2013-14 to 2018-19. Data were extracted from the league [homepage](www.volleyball-bundesliga.de).
 
+### General
+
+-   `r pkg("teamcolors")` provides color palettes, **ggplot2** themes, **xaringan** themes, and logos for professional teams across a variety of sports and leagues. `r pkg("teamcolors")` was originally designed to create the data graphics in [Lopez, et al. (2018)](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-12/issue-4/How-often-does-the-best-team-win-A-unified-approach/10.1214/18-AOAS1165) (`r doi("10.1214/18-AOAS1165")`).
+-   `r pkg("colorr")` contains color palettes for professional sports teams in the EPL, MLB, NBA, NHL, and NFL.
+-   `r pkg("nbapalettes")` contains color palettes inspired by NBA team jersey colors.
+-   `r pkg("sleeperapi")` offers functions for gathering data from the [Sleeper API](https://api.sleeper.app/) for fantasy sports.
+-   `r pkg("sportyR")` contains functions for creating **ggplot2** representations of sports playing surfaces pursuant to rule-book specifications. This is particularly useful for plotting player tracking data.
+-   `r pkg("SportsTour")` provides functions for displaying tournament fixtures using knock-out and round robin methods.
+-   `r pkg("TouRnament")` consists of two functions: 1) creating league tables based on results and 2) creating a match schedule for a league.
+
 ###  Modeling
 
 A wide array of functions for modeling in sports analytics are available in the R base package (e.g. `lm()` and `glm()`). 
@@ -160,7 +158,7 @@ In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("Machin
 
 #### Ratings
 
--   `r pkg("BradleyTerry2", priority = "core")` provides functions and examples for fitting Bradley-Terry models (`r doi("10.2307/2334029")`) to paired comparison data. Packages `r pkg("BSBT")` (Bayesian Spatial Bradley-Terry) and `r pkg("BTdecayLasso")` (Bradley-Terry Model with Exponential Time Decayed Log-Likelihood and Adaptive Lasso) provides implementations to extended versions of the Bradley-Terry model. See `r doi("10.18637/jss.v012.i01")` for background on the predecessor package. 
+-   `r pkg("BradleyTerry2", priority = "core")` provides functions and examples for fitting Bradley-Terry models (`r doi("10.2307/2334029")`) to paired comparison data. See `r doi("10.18637/jss.v012.i01")` for background on this package. 
 -   Methods for estimating the Elo rating in sports can be found in the `r pkg("elo")`, `r pkg("welo")`, `r pkg("EloOptimized")`, `r pkg("EloChoice")`, and `r pkg("EloRating")` packages. `r pkg("PlayerRatings")` also offers implementations to other rating systems, including Glicko, Glicko-2, and Stephenson, in addition to Elo.
 -   `r pkg("piratings")` computes pi-ratings for determining team ability in association football, as described in [Constantinou and Fenton (2013)](https://www.degruyter.com/document/doi/10.1515/jqas-2012-0036/html) (`r doi("10.1016/j.knosys.2013.05.008")`).
 -   `r pkg("mvglmmRank")` provides functions for building multivariate generalized mixed models for ranking teams in sports.
