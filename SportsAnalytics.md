@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2022-10-20
+version: 2022-01-03
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
