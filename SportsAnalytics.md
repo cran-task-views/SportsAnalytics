@@ -165,7 +165,7 @@ In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("Machin
 
 ### Links
 
--   Lopez, M. J., Matthews, G. J., and Baumer, B. S. (2018). [How often does the best team win? A unified approach to understanding randomness in North American sport](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-12/issue-4/How-often-does-the-best-team-win-A-unified-approach/10.1214/18-AOAS1165). *The Annals of Applied Statistics*, 12(4), 2483-2516.
+-   Lopez, M. J., Matthews, G. J., and Baumer, B. S. (2018). [How often does the best team win? A unified approach to understanding randomness in North American sport](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-12/issue-4/How-often-does-the-best-team-win-A-unified-approach/10.1214/18-AOAS1165.full). *The Annals of Applied Statistics*, 12(4), 2483-2516.
 -   Constantinou, A. C., Fenton, N. E., and Neil, M. (2013). [Profiting from an inefficient Association Football gambling market: Prediction, Risk and Uncertainty using Bayesian networks](https://www.sciencedirect.com/science/article/pii/S095070511300169X). *Knowledge-Based Systems*, 50, 60-86.
 -   Zuccolotto, P., and Manisera, M. (2020). [*Basketball data science: with applications in R*](https://www.routledge.com/Basketball-Data-Science-With-Applications-in-R/Zuccolotto-Manisera/p/book/9780429470615). CRC Press.
 -   Marchi, M., Albert, J., and Baumer, B. S. (2018). [*Analyzing baseball data with R*](https://www.taylorfrancis.com/books/mono/10.1201/9781351107099/analyzing-baseball-data-max-marchi-jim-albert-benjamin-baumer). 2nd edition. Chapman and Hall/CRC.
