@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2023-01-12
+version: 2023-01-23
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -88,7 +88,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("stockfish")` implements the UCI open communication protocol and ships with [Stockfish](https://github.com/official-stockfish/Stockfish), a popular, open source, powerful chess engine written in C++.
 -   Like `r pkg("chess")`, `r pkg("bigchess")` reads and writes PGN files. And like `r pkg("stockfish")`, `r pkg("bigchess")` provides an API to the UCI chess engines. `r pkg("bigchess")` is also able to read multiple game files at once without copying to RAM.
 -   `r pkg("rchess")` provides functions for chess validations, pieces movements, check detection, and plotting chess boards.
--   `r pkg("chessR")` allows users to obtain game data from online chess applications, including [chess.com](https://www.chess.com/) and [Lichess](https://lichess.org/).
 
 #### Cricket 🏏
 
@@ -111,7 +110,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 #### Hockey 🏒
 
--   `r pkg("hockeyR")` contains functions to load raw NHL play-by-play data from [NHL.com](https://nhl.com). Additionally, it contains functions for scraping [www.hockey-reference.com](https://www.hockey-reference.com) including standings, player stats, and jersey number history.
 -   `r pkg("NHLData")` contains scores from NHL games dating back to 1917. Data are stored one season at a time and contains scores for every game during a particular season.
 -   Access to data exposed by the [NHL API](https://gitlab.com/dword4/nhlapi) is provided by the `r pkg("nhlapi")` and `r pkg("nhlscrape")` packages.
 -   `r pkg("fastRhockey")` provides API wrappers for the NHL and Premier Hockey Federation (PHF), formerly known as the National Women's Hockey League (NWHL).
