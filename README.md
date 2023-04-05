@@ -1,6 +1,4 @@
-[![](https://img.shields.io/badge/CTV-SportsAnalytics-red)](https://cran.r-project.org/web/views/SportsAnalytics.html)
-
-## CRAN Task View: SportsAnalytics
+## CRAN Task View: Sports Analytics
 
 **URL:** <https://CRAN.R-project.org/view=SportsAnalytics>
 
