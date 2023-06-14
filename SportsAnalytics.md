@@ -133,7 +133,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 #### Track and Field 🏃
 
 -   `r pkg("combinedevents")` contains functions for calculating scores and marks for combined events competitions in track and field, based on the [International Association of Athletics Federation](https://www.worldathletics.org/) scoring tables.
--   `r pkg("JumpeR")` consists of functions for importing (primarily) and analyzing track and field data.
 
 #### Volleyball 🏐
 
