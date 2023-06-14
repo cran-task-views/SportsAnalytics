@@ -80,7 +80,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("NBAloveR")` is an R interface to access basketball data from [Basketball Reference](https://www.basketball-reference.com) API. This package also contains functions to help users with analyzing basketball data.
 -   `r pkg("wehoop")` provides functions for accessing women's college basketball and WNBA data from the [ESPN](https://www.espn.com) API.
 -   `r pkg("hoopR")` consists of functions for accessing men's college basketball and NBA data from various sources, including [ESPN](https://www.espn.com), [NBA Stats API](https://www.nba.com/stats), and [Ken Pomeroy's college basketball ratings](https://www.kenpom.com).
--   `r pkg("toRvik")` includes functions for scraping men's college basketball data on advanced metrics, player and game statistics, and more from [Barttorvik](https://barttorvik.com/).
 
 #### Chess ♟
 
