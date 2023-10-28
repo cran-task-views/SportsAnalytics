@@ -155,7 +155,7 @@ In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("Machin
 #### Ratings
 
 -   `r pkg("BradleyTerry2", priority = "core")` provides functions and examples for fitting Bradley-Terry models (`r doi("10.2307/2334029")`) to paired comparison data. See `r doi("10.18637/jss.v012.i01")` for background on this package. 
--   Methods for estimating the Elo rating in sports can be found in the `r pkg("elo")`, `r pkg("welo")`, `r pkg("EloOptimized")`, `r pkg("EloChoice")`, and `r pkg("EloRating")` packages. `r pkg("PlayerRatings")` also offers implementations to other rating systems, including Glicko, Glicko-2, and Stephenson, in addition to Elo.
+-   Methods for estimating the Elo rating in sports can be found in the `r pkg("elo")`, `r pkg("welo")`, `r pkg("EloChoice")`, and `r pkg("EloRating")` packages. `r pkg("PlayerRatings")` also offers implementations to other rating systems, including Glicko, Glicko-2, and Stephenson, in addition to Elo.
 -   `r pkg("piratings")` computes pi-ratings for determining team ability in association football, as described in [Constantinou and Fenton (2013)](https://www.degruyter.com/document/doi/10.1515/jqas-2012-0036/html) (`r doi("10.1016/j.knosys.2013.05.008")`).
 -   `r pkg("mvglmmRank")` provides functions for building multivariate generalized mixed models for ranking teams in sports.
 
