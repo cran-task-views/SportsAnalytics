@@ -49,7 +49,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 #### Association Football (Soccer) ⚽
 
 -   `r pkg("worldfootballR")` provides clean and tidy football data from a number of popular sites, including [FBref](https://fbref.com/en/), transfer and valuations data from [Transfermarkt](https://www.transfermarkt.com/) and shooting location data from [Understat](https://understat.com/) and [fotmob](https://www.fotmob.com/).
--   European soccer data is available through the `r pkg("engsoccerdata")` package, which contains match results for English and other European soccer leagues dating back to 1871.
 -   `r pkg("socceR")` provides functions for evaluating soccer predictions and simulating results from soccer matches and tournament.
 -   `r pkg("ggsoccer")` provides functions for visualizing soccer event data in **ggplot2**.
 -   `r pkg("footballpenaltiesBL")` contains data and plotting functions for analyzing penalty kicks in the [German Men's Bundesliga](https://www.bundesliga.com/) from 1963-64 to 2016-17.
