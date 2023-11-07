@@ -135,7 +135,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("sleeperapi")` offers functions for gathering data from the [Sleeper API](https://api.sleeper.app/) for fantasy sports.
 -   `r pkg("sportyR")` contains functions for creating **ggplot2** representations of sports playing surfaces pursuant to rule-book specifications. This is particularly useful for plotting player tracking data.
 -   `r pkg("SportsTour")` provides functions for displaying tournament fixtures using knock-out and round robin methods.
--   `r pkg("TouRnament")` consists of two functions: 1) creating league tables based on results and 2) creating a match schedule for a league.
 -   `r pkg("injurytools")` provides functionality for analyzing, visualizing, and modeling sports injuries. 
 
 ###  Modeling
