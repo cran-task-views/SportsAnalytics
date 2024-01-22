@@ -83,7 +83,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 -   `r pkg("chess")` is an opinionated wrapper for R around [python-chess](https://github.com/niklasf/python-chess). It reads and writes [PGN files](https://en.wikipedia.org/wiki/Portable_Game_Notation) and SVGs of game boards.
 -   Like `r pkg("chess")`, `r pkg("bigchess")` reads and writes PGN files. `r pkg("bigchess")` provides an API to the UCI chess engines. `r pkg("bigchess")` is also able to read multiple game files at once without copying to RAM.
--   `r pkg("rchess")` provides functions for chess validations, pieces movements, check detection, and plotting chess boards.
 
 #### Cricket 🏏
 
