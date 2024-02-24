@@ -67,7 +67,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 - `r pkg("baseballr", priority = "core")` consists of functions for extracting and analyzing baseball data from various sources such as [Baseball Reference](https://www.baseball-reference.com/), [FanGraphs](https://www.fangraphs.com/), and [Baseball Savant](https://baseballsavant.mlb.com/). The package is featured prominently in the 3rd edition of Albert, J., Marchi, M., and Baumer, B. S. (2024). [*Analyzing Baseball Data with R*](https://beanumber.github.io/abdwr3e/) (`r doi("10.1201/9781351107099")`) and largely replaces the now-defunct `pitchRx` package. 
 -   `r pkg("retrosheet")` facilitates downloading game log, team IDs, rosters, and play-by-play and other files from [Retrosheet.org](http://wwws.retrosheet.org/), and returning the results as data frames. Local caching can be employed to improve efficiency. Note that the play-by-play data returned comes directly from the event files and is not parsed (i.e., [Chadwick](https://github.com/chadwickbureau/chadwick) is not bundled).
 -   `r pkg("mlbstats")` provides functions for vector-based computation of many baseball statistics, both traditional and sabermetric.
--   `r pkg("baseballDBR")` leverages the backend database functionality of **dplyr** to build local databases that mirror the data contained in `r pkg("Lahman")`. Like `r pkg("mlbstats")`, it also includes functions to compute baseball statistics, but on data frames rather than vectors.
 
 #### Basketball 🏀
 
