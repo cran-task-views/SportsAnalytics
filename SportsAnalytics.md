@@ -43,7 +43,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("ffscrapr")` helps access various fantasy football APIs including MFL, Sleeper, ESPN, and Fleaflicker with a consistent interface and built-in authentication, rate-limiting, and caching.
 -   `r pkg("ffsimulator")` allows users to simulate fantasy football seasons using bootstrap resampling. Simulations are based on historical rankings and data from the package `r pkg("nflfastR")`. In addition, functions for computing optimal lineups and aggregating results are provided.
 -   `r pkg("gsisdecoder")` contains functions to decode NFL Player IDs for use in conjunction with the `r pkg("nflfastR")` package.
--   `r pkg("cfbfastR")` provides function for accessing college football play-by-play data from [collegefootballdata.com](https://collegefootballdata.com/).
 
 #### Association Football (Soccer) ⚽
 
