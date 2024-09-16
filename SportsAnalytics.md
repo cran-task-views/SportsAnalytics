@@ -40,7 +40,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("nflseedR")` contains functions for ranking NFL teams based on the complex NFL tie breaking rules. It includes division ranking, playoff seeding, and draft order.
 -   `r pkg("nflplotR")` includes functions for making NFL data visualization in **ggplot2** easier.
 -   `r pkg("NFLSimulatoR")` consists of tools for simulating plays and drives, and furthermore evaluating in-game strategies in the NFL.
--   `r pkg("fflr")` provides functions to access ESPN raw fantasy football data from the ESPN fantasy football API and formatting the raw data.
 -   `r pkg("ffscrapr")` helps access various fantasy football APIs including MFL, Sleeper, ESPN, and Fleaflicker with a consistent interface and built-in authentication, rate-limiting, and caching.
 -   `r pkg("ffsimulator")` allows users to simulate fantasy football seasons using bootstrap resampling. Simulations are based on historical rankings and data from the package `r pkg("nflfastR")`. In addition, functions for computing optimal lineups and aggregating results are provided.
 -   `r pkg("gsisdecoder")` contains functions to decode NFL Player IDs for use in conjunction with the `r pkg("nflfastR")` package.
