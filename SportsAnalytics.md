@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2023-04-06
+version: 2024-09-19
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -53,6 +53,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("itscalledsoccer")` enables access to American soccer (MLS, NWSL, and USL) data through the [American Soccer Analysis app API](https://app.americansocceranalysis.com/).
 -   `r pkg("FPLdata")` contains functions for retrieving player attributes on [Fantasy Premier League](https://fantasy.premierleague.com/).
 -   `r pkg("EUfootball")` provides European football match results for top leagues in England, France, Germany, Italy, Spain, Netherlands, and Turkey from 2010-2011 to 2019-2020.
+-   `r pkg("bundesligR")` contains all final standings of the Bundesliga in Germany from 1964 to 2016.
 
 #### Australian Rules Football 🏉
 
@@ -64,6 +65,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 - `r pkg("baseballr", priority = "core")` consists of functions for extracting and analyzing baseball data from various sources such as [Baseball Reference](https://www.baseball-reference.com/), [FanGraphs](https://www.fangraphs.com/), and [Baseball Savant](https://baseballsavant.mlb.com/). The package is featured prominently in the 3rd edition of Albert, J., Marchi, M., and Baumer, B. S. (2024). [*Analyzing Baseball Data with R*](https://beanumber.github.io/abdwr3e/) (`r doi("10.1201/9781351107099")`) and largely replaces the now-defunct `pitchRx` package. 
 -   `r pkg("retrosheet")` facilitates downloading game log, team IDs, rosters, and play-by-play and other files from [Retrosheet.org](http://wwws.retrosheet.org/), and returning the results as data frames. Local caching can be employed to improve efficiency. Note that the play-by-play data returned comes directly from the event files and is not parsed (i.e., [Chadwick](https://github.com/chadwickbureau/chadwick) is not bundled).
 -   `r pkg("mlbstats")` provides functions for vector-based computation of many baseball statistics, both traditional and sabermetric.
+-   `r pkg("mlbplotR")` contains tools for visualizing MLB analysis with **ggplot2** and **gt**.
 
 #### Basketball 🏀
 
@@ -74,11 +76,14 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("NBAloveR")` is an R interface to access basketball data from [Basketball Reference](https://www.basketball-reference.com) API. This package also contains functions to help users with analyzing basketball data.
 -   `r pkg("wehoop")` provides functions for accessing women's college basketball and WNBA data from the [ESPN](https://www.espn.com) API.
 -   `r pkg("hoopR")` consists of functions for accessing men's college basketball and NBA data from various sources, including [ESPN](https://www.espn.com), [NBA Stats API](https://www.nba.com/stats), and [Ken Pomeroy's college basketball ratings](https://www.kenpom.com).
+-   `r pkg("euroleaguer")` provides functions for retrieving data from EuroLeague and EuroCup API.
+-   `r pkg("nblR")` allows users to obtain play-by-play, shooting locations, and box score statistics for the [National Basketball League](https://nbl.com.au/) in Australia.
 
 #### Chess ♟
 
 -   `r pkg("chess")` is an opinionated wrapper for R around [python-chess](https://github.com/niklasf/python-chess). It reads and writes [PGN files](https://en.wikipedia.org/wiki/Portable_Game_Notation) and SVGs of game boards.
 -   Like `r pkg("chess")`, `r pkg("bigchess")` reads and writes PGN files. `r pkg("bigchess")` provides an API to the UCI chess engines. `r pkg("bigchess")` is also able to read multiple game files at once without copying to RAM.
+-   `r pkg("ChessGmooG")` contains FIDE Ratings for chess players for 2015 and 2020.
 
 #### Cricket 🏏
 
@@ -126,10 +131,12 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("teamcolors")` provides color palettes, **ggplot2** themes, **xaringan** themes, and logos for professional teams across a variety of sports and leagues. `r pkg("teamcolors")` was originally designed to create the data graphics in [Lopez, et al. (2018)](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-12/issue-4/How-often-does-the-best-team-win-A-unified-approach/10.1214/18-AOAS1165) (`r doi("10.1214/18-AOAS1165")`).
 -   `r pkg("colorr")` contains color palettes for professional sports teams in the EPL, MLB, NBA, NHL, and NFL.
 -   `r pkg("nbapalettes")` contains color palettes inspired by NBA team jersey colors.
+-   `r pkg("gameR")` contains color palettes inspired by video games.
 -   `r pkg("sleeperapi")` offers functions for gathering data from the [Sleeper API](https://api.sleeper.app/) for fantasy sports.
 -   `r pkg("sportyR")` contains functions for creating **ggplot2** representations of sports playing surfaces pursuant to rule-book specifications. This is particularly useful for plotting player tracking data.
 -   `r pkg("SportsTour")` provides functions for displaying tournament fixtures using knock-out and round robin methods.
 -   `r pkg("injurytools")` provides functionality for analyzing, visualizing, and modeling sports injuries. 
+-   `r pkg("ISAR")` contains datasets used in the textbook [*Introduction to Sports Analytics using R*](https://www.prospectpressvt.com/textbooks/elmore-sports-analytics).
 
 ###  Modeling
 
@@ -147,7 +154,7 @@ In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("Machin
 #### Ratings
 
 -   `r pkg("BradleyTerry2", priority = "core")` provides functions and examples for fitting Bradley-Terry models (`r doi("10.2307/2334029")`) to paired comparison data. See `r doi("10.18637/jss.v012.i01")` for background on this package. 
--   Methods for estimating the Elo rating in sports can be found in the `r pkg("elo")`, `r pkg("welo")`, `r pkg("EloChoice")`, and `r pkg("EloRating")` packages. `r pkg("PlayerRatings")` also offers implementations to other rating systems, including Glicko, Glicko-2, and Stephenson, in addition to Elo.
+-   Methods for estimating the Elo rating in sports can be found in the `r pkg("elo")`, `r pkg("welo")`, `r pkg("EloOptimized")`, `r pkg("EloChoice")`, and `r pkg("EloRating")` packages. `r pkg("PlayerRatings")` also offers implementations to other rating systems, including Glicko, Glicko-2, and Stephenson, in addition to Elo.
 -   `r pkg("piratings")` computes pi-ratings for determining team ability in association football, as described in [Constantinou and Fenton (2013)](https://www.degruyter.com/document/doi/10.1515/jqas-2012-0036/html) (`r doi("10.1016/j.knosys.2013.05.008")`).
 -   `r pkg("mvglmmRank")` provides functions for building multivariate generalized mixed models for ranking teams in sports.
 
@@ -157,5 +164,4 @@ In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("Machin
 -   Constantinou, A. C., Fenton, N. E., and Neil, M. (2013). [Profiting from an inefficient Association Football gambling market: Prediction, Risk and Uncertainty using Bayesian networks](https://www.sciencedirect.com/science/article/pii/S095070511300169X). *Knowledge-Based Systems*, 50, 60-86.
 -   Zuccolotto, P., and Manisera, M. (2020). [*Basketball data science: with applications in R*](https://www.routledge.com/Basketball-Data-Science-With-Applications-in-R/Zuccolotto-Manisera/p/book/9780429470615). CRC Press.
 -   Marchi, M., Albert, J., and Baumer, B. S. (2018). [*Analyzing baseball data with R*](https://www.taylorfrancis.com/books/mono/10.1201/9781351107099/analyzing-baseball-data-max-marchi-jim-albert-benjamin-baumer). 2nd edition. Chapman and Hall/CRC.
--   Sievert, C. (2014). [Taming PITCHf/x Data with XML2R and pitchRx](https://journal.R-project.org/archive/2014/RJ-2014-001/). *R Journal*, 6(1).
 -   Bradley, R. A., & Terry, M. E. (1952). [Rank analysis of incomplete block designs: I. The method of paired comparisons.](https://www.jstor.org/stable/2334029?seq=1) *Biometrika*, 39(3/4), 324-345.
