@@ -98,6 +98,10 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("rbedrock")` supports data analysis and management of Minecraft (Bedrock Edition).
 -   `r pkg("ROpenDota")`, `r pkg("opendotaR")`, and `r pkg("RDota2")` extract Dota2 data from the [OpenDota](https://www.opendota.com/) and [Steam](https://developer.valvesoftware.com/wiki/Steam_Web_API) APIs.
 
+#### Formula 1 🏎️
+
+-   `r pkg("f1dataR")` provides historical data from the beginning of Formula 1 via the [Jolpica (formerly Ergast)](https://api.jolpi.ca/ergast/f1/) database, and lap-by-lap telemetry data from 2018 onward via the [FastF1 python package](https://docs.fastf1.dev/).
+
 #### GPS Tracking 📍
 
 -   `r pkg("trackeR")` and `r pkg("trackeRapp")` provide tools for analyzing running, cycling and swimming data from GPS-enabled tracking devices within R. These two packages allow users to tidy and explore data from workouts and competitions.
