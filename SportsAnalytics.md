@@ -129,6 +129,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 #### Volleyball 🏐
 
 -   `r pkg("volleystat")` contains match statistics from the [German Volleyball Bundesliga](https://www.volleyball-bundesliga.de/) from 2013-14 to 2018-19. Data were extracted from the league [homepage](www.volleyball-bundesliga.de).
+-   `r pkg("ncaavolleyballr")` extracts team records and player statistics for the NCAA women’s and men’s division I, II, and III volleyball teams from the [NCAA website](https://stats.ncaa.org).
 
 ### General
 
