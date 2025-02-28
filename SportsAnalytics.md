@@ -54,6 +54,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("FPLdata")` contains functions for retrieving player attributes on [Fantasy Premier League](https://fantasy.premierleague.com/).
 -   `r pkg("EUfootball")` provides European football match results for top leagues in England, France, Germany, Italy, Spain, Netherlands, and Turkey from 2010-2011 to 2019-2020.
 -   `r pkg("bundesligR")` contains all final standings of the Bundesliga in Germany from 1964 to 2016.
+-   `r pkg("ggfootball")` Scrapes footbal match shots data from [Understat](https://understat.com/) and visualizes it using interactive plots: A detailed shot map displaying the location, type, and xG value of shots taken by both teams, and an xG timeline chart showing the cumulative xG for each team over time, annotated with the details of scored goals.
 
 #### Australian Rules Football 🏉
 
