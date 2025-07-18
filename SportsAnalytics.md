@@ -139,7 +139,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("colorr")` contains color palettes for professional sports teams in the EPL, MLB, NBA, NHL, and NFL.
 -   `r pkg("nbapalettes")` contains color palettes inspired by NBA team jersey colors.
 -   `r pkg("gameR")` contains color palettes inspired by video games.
--   `r pkg("sleeperapi")` offers functions for gathering data from the [Sleeper API](https://api.sleeper.app/) for fantasy sports.
 -   `r pkg("sportyR")` contains functions for creating **ggplot2** representations of sports playing surfaces pursuant to rule-book specifications. This is particularly useful for plotting player tracking data.
 -   `r pkg("SportsTour")` provides functions for displaying tournament fixtures using knock-out and round robin methods.
 -   `r pkg("injurytools")` provides functionality for analyzing, visualizing, and modeling sports injuries. 
