@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2024-09-19
+version: 2025-09-01
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -22,8 +22,6 @@ Most packages provide functionality for some combination of:
 
 #. acquiring data for a specific sport or league
 #. performing common computations on sport-specific data
-
-Esports and sports betting packages are within scope.
 
 The list of packages is aspirationally comprehensive. 
 If there is a sports analytics package on CRAN that we have missed, please let us know. 
@@ -79,6 +77,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("hoopR")` consists of functions for accessing men's college basketball and NBA data from various sources, including [ESPN](https://www.espn.com), [NBA Stats API](https://www.nba.com/stats), and [Ken Pomeroy's college basketball ratings](https://www.kenpom.com).
 -   `r pkg("euroleaguer")` provides functions for retrieving data from EuroLeague and EuroCup API.
 -   `r pkg("nblR")` allows users to obtain play-by-play, shooting locations, and box score statistics for the [National Basketball League](https://nbl.com.au/) in Australia.
+-   `r pkg("ceblR")` provides box-score and play-by-play data from the [Canadian Elite Basketball League](https://www.cebl.ca).
 
 #### Chess ♟
 
@@ -107,6 +106,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 -   `r pkg("trackeR")` and `r pkg("trackeRapp")` provide tools for analyzing running, cycling and swimming data from GPS-enabled tracking devices within R. These two packages allow users to tidy and explore data from workouts and competitions.
 -   `r pkg("rStrava")` contains functions to access [Strava](https://www.strava.com/) activity data from the [Strava API](https://developers.strava.com/).
+-   `r pkg("Athlytics")` provides functions to fetch data via `r pkg("rStrava")` and calculate sports science metrics.
 -   A detailed overview of tools for processing and analyzing tracking data can be found in the `r view("Tracking")` CRAN Task View.
 
 #### Hockey 🏒
@@ -115,6 +115,10 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("nhlscraper")` wraps endpoints from the National Hockey League and ESPN. It includes play-by-play logs and odds from sports books.
 -   Access to data exposed by the [NHL API](https://gitlab.com/dword4/nhlapi) is provided by the `r pkg("nhlapi")` package.
 -   `r pkg("fastRhockey")` provides API wrappers for the NHL and Premier Hockey Federation (PHF), formerly known as the National Women's Hockey League (NWHL).
+
+#### Rugby 🏉
+
+-   `r pkg("nrlR")` provides functions to scrape rugby data, including player statistics, match results, ladders, venues, and coaching data.
 
 #### Softball 🥎
 
@@ -130,7 +134,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 #### Volleyball 🏐
 
--   `r pkg("volleystat")` contains match statistics from the [German Volleyball Bundesliga](https://www.volleyball-bundesliga.de/) from 2013-14 to 2018-19. Data were extracted from the league [homepage](www.volleyball-bundesliga.de).
 -   `r pkg("ncaavolleyballr")` extracts team records and player statistics for the NCAA women’s and men’s division I, II, and III volleyball teams from the [NCAA website](https://stats.ncaa.org).
 
 ### General
@@ -141,6 +144,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("gameR")` contains color palettes inspired by video games.
 -   `r pkg("sportyR")` contains functions for creating **ggplot2** representations of sports playing surfaces pursuant to rule-book specifications. This is particularly useful for plotting player tracking data.
 -   `r pkg("SportsTour")` provides functions for displaying tournament fixtures using knock-out and round robin methods.
+-   `r pkg("ProSportsDraftData")` offers draft data for the major North American professional sports leagues, including NFL, NBA, and NHL.
 -   `r pkg("injurytools")` provides functionality for analyzing, visualizing, and modeling sports injuries. 
 -   `r pkg("ISAR")` contains datasets used in the textbook [*Introduction to Sports Analytics using R*](https://www.prospectpressvt.com/textbooks/elmore-sports-analytics).
 
