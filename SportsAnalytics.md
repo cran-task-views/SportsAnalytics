@@ -7,7 +7,7 @@ version: 2025-09-01
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
-This CRAN Task View contains a list of packages useful for sports analytics. 
+This CRAN Task View contains a list of packages useful for sports analytics.
 Most of the packages are sport-specific and are grouped as such.  However, we
 also include a **General** section for packages that provide ancillary
 functionality relevant to sports analytics (e.g., team-themed color palettes),
@@ -17,15 +17,15 @@ end, we have included a list of selected books and articles that use some of
 these packages in substantive ways.  Our goal in compiling this list is to help
 researchers find the tools they need to complete their work in R.
 
-To be considered for inclusion, the package must be useful for conducting sports analytics. 
+To be considered for inclusion, the package must be useful for conducting sports analytics.
 Most packages provide functionality for some combination of:
 
 #. acquiring data for a specific sport or league
 #. performing common computations on sport-specific data
 
-The list of packages is aspirationally comprehensive. 
-If there is a sports analytics package on CRAN that we have missed, please let us know. 
-Contributions are always welcome, and encouraged -- please see the linked GitHub repository for details. 
+The list of packages is aspirationally comprehensive.
+If there is a sports analytics package on CRAN that we have missed, please let us know.
+Contributions are always welcome, and encouraged -- please see the linked GitHub repository for details.
 
 ### Sport-Specific Packages
 
@@ -40,6 +40,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("NFLSimulatoR")` consists of tools for simulating plays and drives, and furthermore evaluating in-game strategies in the NFL.
 -   `r pkg("ffscrapr")` helps access various fantasy football APIs including MFL, Sleeper, ESPN, and Fleaflicker with a consistent interface and built-in authentication, rate-limiting, and caching.
 -   `r pkg("gsisdecoder")` contains functions to decode NFL Player IDs for use in conjunction with the `r pkg("nflfastR")` package.
+-   `r pkg("cfbfastR")` contains functions to efficiently scrape college football play-by-play data from 2004 to present. It is similar to [cfbscrapR](https://github.com/saiemgilani/cfbscrapR), and aims to be the collegiate analogue of `r pkg("nflfastR")`. The package also serves as a wrapper for the [College Football Data API](https://collegefootballdata.com/).
 
 #### Association Football (Soccer) ⚽
 
@@ -61,7 +62,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 #### Baseball ⚾
 
 -   Historical baseball data is available through the `r pkg("Lahman", priority = "core")` package, which contains season-level data for Major League Baseball going back to 1871.
-- `r pkg("baseballr", priority = "core")` consists of functions for extracting and analyzing baseball data from various sources such as [Baseball Reference](https://www.baseball-reference.com/), [FanGraphs](https://www.fangraphs.com/), and [Baseball Savant](https://baseballsavant.mlb.com/). The package is featured prominently in the 3rd edition of Albert, J., Marchi, M., and Baumer, B. S. (2024). [*Analyzing Baseball Data with R*](https://beanumber.github.io/abdwr3e/) (`r doi("10.1201/9781351107099")`) and largely replaces the now-defunct `pitchRx` package. 
+- `r pkg("baseballr", priority = "core")` consists of functions for extracting and analyzing baseball data from various sources such as [Baseball Reference](https://www.baseball-reference.com/), [FanGraphs](https://www.fangraphs.com/), and [Baseball Savant](https://baseballsavant.mlb.com/). The package is featured prominently in the 3rd edition of Albert, J., Marchi, M., and Baumer, B. S. (2024). [*Analyzing Baseball Data with R*](https://beanumber.github.io/abdwr3e/) (`r doi("10.1201/9781351107099")`) and largely replaces the now-defunct `pitchRx` package.
 -   `r pkg("retrosheet")` facilitates downloading game log, team IDs, rosters, and play-by-play and other files from [Retrosheet.org](http://wwws.retrosheet.org/), and returning the results as data frames. Local caching can be employed to improve efficiency. Note that the play-by-play data returned comes directly from the event files and is not parsed (i.e., [Chadwick](https://github.com/chadwickbureau/chadwick) is not bundled).
 -   `r pkg("mlbstats")` provides functions for vector-based computation of many baseball statistics, both traditional and sabermetric.
 -   `r pkg("mlbplotR")` contains tools for visualizing MLB analysis with **ggplot2** and **gt**.
@@ -73,8 +74,8 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("uncmbb")` contains data on University of North Carolina (at Chapel Hill) Men's Basketball Results since the 1949-50 season.
 -   `r pkg("BasketballAnalyzeR")` accompanies the book [*Basketball Data Science With Applications in R*](https://www.routledge.com/Basketball-Data-Science-With-Applications-in-R/Zuccolotto-Manisera/p/book/9781138600799). This package includes data and functions to analyze and visualize basketball data.
 -   `r pkg("NBAloveR")` is an R interface to access basketball data from [Basketball Reference](https://www.basketball-reference.com) API. This package also contains functions to help users with analyzing basketball data.
--   `r pkg("wehoop")` provides functions for accessing women's college basketball and WNBA data from the [ESPN](https://www.espn.com) API.
 -   `r pkg("hoopR")` consists of functions for accessing men's college basketball and NBA data from various sources, including [ESPN](https://www.espn.com), [NBA Stats API](https://www.nba.com/stats), and [Ken Pomeroy's college basketball ratings](https://www.kenpom.com).
+-   `r pkg("wehoop")` provides functions for accessing women's college basketball and WNBA data from [ESPN](https://www.espn.com) and the [WNBA Stats API](https://stats.wnba.com).
 -   `r pkg("euroleaguer")` provides functions for retrieving data from EuroLeague and EuroCup API.
 -   `r pkg("nblR")` allows users to obtain play-by-play, shooting locations, and box score statistics for the [National Basketball League](https://nbl.com.au/) in Australia.
 -   `r pkg("ceblR")` provides box-score and play-by-play data from the [Canadian Elite Basketball League](https://www.cebl.ca).
@@ -114,7 +115,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("NHLData")` contains scores from NHL games dating back to 1917. Data are stored one season at a time and contains scores for every game during a particular season.
 -   `r pkg("nhlscraper")` wraps endpoints from the National Hockey League and ESPN. It includes play-by-play logs and odds from sports books.
 -   Access to data exposed by the [NHL API](https://gitlab.com/dword4/nhlapi) is provided by the `r pkg("nhlapi")` package.
--   `r pkg("fastRhockey")` provides API wrappers for the NHL and Premier Hockey Federation (PHF), formerly known as the National Women's Hockey League (NWHL).
+-   `r pkg("fastRhockey")` provides API wrappers for the NHL and the Professional Women's Hockey League (PWHL), formerly known as the Premier Hockey Federation (PHF).
 
 #### Rugby 🏉
 
@@ -145,12 +146,12 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("sportyR")` contains functions for creating **ggplot2** representations of sports playing surfaces pursuant to rule-book specifications. This is particularly useful for plotting player tracking data.
 -   `r pkg("SportsTour")` provides functions for displaying tournament fixtures using knock-out and round robin methods.
 -   `r pkg("ProSportsDraftData")` offers draft data for the major North American professional sports leagues, including NFL, NBA, and NHL.
--   `r pkg("injurytools")` provides functionality for analyzing, visualizing, and modeling sports injuries. 
+-   `r pkg("injurytools")` provides functionality for analyzing, visualizing, and modeling sports injuries.
 -   `r pkg("ISAR")` contains datasets used in the textbook [*Introduction to Sports Analytics using R*](https://www.prospectpressvt.com/textbooks/elmore-sports-analytics).
 
 ###  Modeling
 
-A wide array of functions for modeling in sports analytics are available in the R base package (e.g. `lm()` and `glm()`). 
+A wide array of functions for modeling in sports analytics are available in the R base package (e.g. `lm()` and `glm()`).
 In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("MachineLearning")`, `r view("Robust")`, `r view("Spatial")`, and `r view("SpatioTemporal")` may contain appropriate packages for applying statistical methods to sports.
 
 #### Betting
@@ -163,7 +164,7 @@ In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("Machin
 
 #### Ratings
 
--   `r pkg("BradleyTerry2", priority = "core")` provides functions and examples for fitting Bradley-Terry models (`r doi("10.2307/2334029")`) to paired comparison data. See `r doi("10.18637/jss.v012.i01")` for background on this package. 
+-   `r pkg("BradleyTerry2", priority = "core")` provides functions and examples for fitting Bradley-Terry models (`r doi("10.2307/2334029")`) to paired comparison data. See `r doi("10.18637/jss.v012.i01")` for background on this package.
 -   Methods for estimating the Elo rating in sports can be found in the `r pkg("elo")`, `r pkg("welo")`, `r pkg("EloOptimized")`, `r pkg("EloChoice")`, and `r pkg("EloRating")` packages. `r pkg("PlayerRatings")` also offers implementations to other rating systems, including Glicko, Glicko-2, and Stephenson, in addition to Elo.
 -   `r pkg("piratings")` computes pi-ratings for determining team ability in association football, as described in [Constantinou and Fenton (2013)](https://www.degruyter.com/document/doi/10.1515/jqas-2012-0036/html) (`r doi("10.1016/j.knosys.2013.05.008")`).
 -   `r pkg("mvglmmRank")` provides functions for building multivariate generalized mixed models for ranking teams in sports.
@@ -173,5 +174,5 @@ In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("Machin
 -   Lopez, M. J., Matthews, G. J., and Baumer, B. S. (2018). [How often does the best team win? A unified approach to understanding randomness in North American sport](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-12/issue-4/How-often-does-the-best-team-win-A-unified-approach/10.1214/18-AOAS1165.full). *The Annals of Applied Statistics*, 12(4), 2483-2516.
 -   Constantinou, A. C., Fenton, N. E., and Neil, M. (2013). [Profiting from an inefficient Association Football gambling market: Prediction, Risk and Uncertainty using Bayesian networks](https://www.sciencedirect.com/science/article/pii/S095070511300169X). *Knowledge-Based Systems*, 50, 60-86.
 -   Zuccolotto, P., and Manisera, M. (2020). [*Basketball data science: with applications in R*](https://www.routledge.com/Basketball-Data-Science-With-Applications-in-R/Zuccolotto-Manisera/p/book/9780429470615). CRC Press.
--   Marchi, M., Albert, J., and Baumer, B. S. (2018). [*Analyzing baseball data with R*](https://www.taylorfrancis.com/books/mono/10.1201/9781351107099/analyzing-baseball-data-max-marchi-jim-albert-benjamin-baumer). 2nd edition. Chapman and Hall/CRC.
+-   Marchi, M., Albert, J., and Baumer, B. S. (2024). [*Analyzing baseball data with R*](https://www.taylorfrancis.com/books/mono/10.1201/9781032668239/analyzing-baseball-data-benjamin-baumer-jim-albert-max-marchi). 3rd edition. Chapman and Hall/CRC.
 -   Bradley, R. A., & Terry, M. E. (1952). [Rank analysis of incomplete block designs: I. The method of paired comparisons.](https://www.jstor.org/stable/2334029?seq=1) *Biometrika*, 39(3/4), 324-345.
