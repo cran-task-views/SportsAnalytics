@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2025-09-01
+version: 2025-09-09
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -152,7 +152,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 ###  Modeling
 
 A wide array of functions for modeling in sports analytics are available in the R base package (e.g. `lm()` and `glm()`).
-In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("MachineLearning")`, `r view("Robust")`, `r view("Spatial")`, and `r view("SpatioTemporal")` may contain appropriate packages for applying statistical methods to sports.
+In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("FunctionalData")`, `r view("MachineLearning")`, `r view("MixedModels")`, `r view("Spatial")`, `r view("SpatioTemporal")`, and `r view("TimeSeries")` may contain appropriate packages for applying statistical methods to sports.
 
 #### Betting
 
