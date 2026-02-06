@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2025-09-09
+version: 2026-02-06
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -83,7 +83,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 #### Chess ♟
 
 -   `r pkg("chess")` is an opinionated wrapper for R around [python-chess](https://github.com/niklasf/python-chess). It reads and writes [PGN files](https://en.wikipedia.org/wiki/Portable_Game_Notation) and SVGs of game boards.
--   Like `r pkg("chess")`, `r pkg("bigchess")` reads and writes PGN files. `r pkg("bigchess")` provides an API to the UCI chess engines. `r pkg("bigchess")` is also able to read multiple game files at once without copying to RAM.
 -   `r pkg("ChessGmooG")` contains FIDE Ratings for chess players for 2015 and 2020.
 
 #### Cricket 🏏
@@ -95,7 +94,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 #### Esports 🎮
 
--   `r pkg("CSGo")` collects Counter-Strike Global Offensive data from the [Steam API](https://developer.valvesoftware.com/wiki/Steam_Web_API).
 -   `r pkg("rbedrock")` supports data analysis and management of Minecraft (Bedrock Edition).
 -   `r pkg("ROpenDota")`, `r pkg("opendotaR")`, and `r pkg("RDota2")` extract Dota2 data from the [OpenDota](https://www.opendota.com/) and [Steam](https://developer.valvesoftware.com/wiki/Steam_Web_API) APIs.
 
