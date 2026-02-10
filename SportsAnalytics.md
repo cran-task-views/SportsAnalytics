@@ -134,7 +134,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 #### Volleyball 🏐
 
 -   `r pkg("ncaavolleyballr")` extracts team records and player statistics for the NCAA women’s and men’s division I, II, and III volleyball teams from the [NCAA website](https://stats.ncaa.org).
--   `r pkg("provolleyballr")` provides tools for scraping match statistics and player data from [Athletes Unlimited Volleyball (UA)](https://auprosports.com/volleyball/), [League One Volleyball](https://lovb.com), and [Major League Volleyball (MLV)](https://provolleyball.com).
+-   `r pkg("provolleyballr")` and `r pkg("rvolleydata")` provide tools for scraping match statistics and player data from [Athletes Unlimited Volleyball (AU)](https://auprosports.com/volleyball/), [League One Volleyball](https://lovb.com), and [Major League Volleyball (MLV)](https://provolleyball.com).
 
 ### General
 
