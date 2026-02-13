@@ -3,7 +3,7 @@ name: SportsAnalytics
 topic: Sports Analytics
 maintainer: Benjamin S. Baumer, Quang Nguyen, Gregory J. Matthews
 email: ben.baumer@gmail.com
-version: 2026-02-06
+version: 2026-02-12
 source: https://github.com/cran-task-views/SportsAnalytics/
 ---
 
@@ -100,6 +100,10 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 #### Formula 1 🏎️
 
 -   `r pkg("f1dataR")` provides historical data from the beginning of Formula 1 via the [Jolpica (formerly Ergast)](https://api.jolpi.ca/ergast/f1/) database, and lap-by-lap telemetry data from 2018 onward via the [FastF1 python package](https://docs.fastf1.dev/).
+
+#### Golf ⛳
+
+-   `r pkg("golfastr")` provides functions to fetch PGA Tour data from [ESPN](https://www.espn.com/golf).
 
 #### GPS Tracking 📍
 
