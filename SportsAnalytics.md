@@ -115,7 +115,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 -   `r pkg("NHLData")` contains scores from NHL games dating back to 1917. Data are stored one season at a time and contains scores for every game during a particular season.
 -   `r pkg("nhlscraper")` wraps endpoints from the National Hockey League and ESPN. It includes play-by-play logs and odds from sports books.
--   Access to data exposed by the [NHL API](https://gitlab.com/dword4/nhlapi) is provided by the `r pkg("nhlapi")` package.
 -   `r pkg("fastRhockey")` provides API wrappers for the NHL and the Professional Women's Hockey League (PWHL), formerly known as the Premier Hockey Federation (PHF).
 
 #### Rugby 🏉
