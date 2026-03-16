@@ -90,7 +90,6 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("yorkr")` provides functions for analyzing statistics of cricket players and teams based on [Cricsheet](https://cricsheet.org) data.
 -   `r pkg("cricketr")` is a collection of tools for analyzing cricket performances of players and teams based on [ESPN Cricinfo Statsguru](https://stats.espncricinfo.com/ci/engine/stats) data.
 -   `r pkg("cricketdata")` includes functions to obtain international cricket data from two major sources, [ESPNCricinfo](https://www.espncricinfo.com/) and [Cricsheet](https://cricsheet.org/).
--   `r pkg("howzatR")` consists of functions for calculating various cricket statistics.
 
 #### Esports 🎮
 
