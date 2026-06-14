@@ -53,7 +53,8 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("FPLdata")` contains functions for retrieving player attributes on [Fantasy Premier League](https://fantasy.premierleague.com/).
 -   `r pkg("EUfootball")` provides European football match results for top leagues in England, France, Germany, Italy, Spain, Netherlands, and Turkey from 2010-2011 to 2019-2020.
 -   `r pkg("bundesligR")` contains all final standings of the Bundesliga in Germany from 1964 to 2016.
--   `r pkg("ggfootball")` Scrapes football match shots data from [Understat](https://understat.com/) and visualizes it using interactive plots: A detailed shot map displaying the location, type, and xG value of shots taken by both teams, and an xG timeline chart showing the cumulative xG for each team over time, annotated with the details of scored goals.
+-   `r pkg("ggfootball")` scrapes football match shots data from [Understat](https://understat.com/) and visualizes it using interactive plots: A detailed shot map displaying the location, type, and xG value of shots taken by both teams, and an xG timeline chart showing the cumulative xG for each team over time, annotated with the details of scored goals.
+-   `r pkg("indonesiaFootballScoutR")` provides functions to extract data from Indonesian football leagues and perform scouting analysis.
 
 #### Australian Rules Football 🏉
 
@@ -66,16 +67,17 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("retrosheet")` facilitates downloading game log, team IDs, rosters, and play-by-play and other files from [Retrosheet.org](http://wwws.retrosheet.org/), and returning the results as data frames. Local caching can be employed to improve efficiency. Note that the play-by-play data returned comes directly from the event files and is not parsed (i.e., [Chadwick](https://github.com/chadwickbureau/chadwick) is not bundled).
 -   `r pkg("mlbstats")` provides functions for vector-based computation of many baseball statistics, both traditional and sabermetric.
 -   `r pkg("mlbplotR")` contains tools for visualizing MLB analysis with **ggplot2** and **gt**.
+-   `r pkg("accbaseballr")` provides traditional and advanced statistics for Atlantic Coast Conference (ACC) baseball at the player-season level.
 
 #### Basketball 🏀
 
--   `r pkg("BAwiR", priority = "core")` is a collection of tools to analyze basketball data, with focus on data scraping and visualization.
+-   `r pkg("BAwiR")` is a collection of tools to analyze basketball data, with focus on data scraping and visualization.
 -   `r pkg("AdvancedBasketballStats")` provides functions to calculate and analyze basketball statistics for players, teams, lineups (quintets), and plays.
--   `r pkg("uncmbb")` contains data on University of North Carolina (at Chapel Hill) Men's Basketball Results since the 1949-50 season.
+-   `r pkg("uncmbb")` contains data on University of North Carolina (at Chapel Hill) Men's Basketball Results since the 1949--50 season.
 -   `r pkg("BasketballAnalyzeR")` accompanies the book [*Basketball Data Science With Applications in R*](https://www.routledge.com/Basketball-Data-Science-With-Applications-in-R/Zuccolotto-Manisera/p/book/9781138600799). This package includes data and functions to analyze and visualize basketball data.
 -   `r pkg("NBAloveR")` is an R interface to access basketball data from [Basketball Reference](https://www.basketball-reference.com) API. This package also contains functions to help users with analyzing basketball data.
--   `r pkg("hoopR")` consists of functions for accessing men's college basketball and NBA data from various sources, including [ESPN](https://www.espn.com), [NBA Stats API](https://www.nba.com/stats), and [Ken Pomeroy's college basketball ratings](https://www.kenpom.com).
--   `r pkg("wehoop")` provides functions for accessing women's college basketball and WNBA data from [ESPN](https://www.espn.com) and the [WNBA Stats API](https://stats.wnba.com).
+-   `r pkg("hoopR", priority = "core")` consists of functions for accessing men's college basketball and NBA data from various sources, including [ESPN](https://www.espn.com), [NBA Stats API](https://www.nba.com/stats), and [Ken Pomeroy's college basketball ratings](https://www.kenpom.com).
+-   `r pkg("wehoop", priority = "core")` provides functions for accessing women's college basketball and WNBA data from [ESPN](https://www.espn.com) and the [WNBA Stats API](https://stats.wnba.com).
 -   `r pkg("euroleaguer")` provides functions for retrieving data from EuroLeague and EuroCup API.
 -   `r pkg("nblR")` allows users to obtain play-by-play, shooting locations, and box score statistics for the [National Basketball League](https://nbl.com.au/) in Australia.
 -   `r pkg("ceblR")` provides box-score and play-by-play data from the [Canadian Elite Basketball League](https://www.cebl.ca).
@@ -90,6 +92,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("yorkr")` provides functions for analyzing statistics of cricket players and teams based on [Cricsheet](https://cricsheet.org) data.
 -   `r pkg("cricketr")` is a collection of tools for analyzing cricket performances of players and teams based on [ESPN Cricinfo Statsguru](https://stats.espncricinfo.com/ci/engine/stats) data.
 -   `r pkg("cricketdata")` includes functions to obtain international cricket data from two major sources, [ESPNCricinfo](https://www.espncricinfo.com/) and [Cricsheet](https://cricsheet.org/).
+-   `r pkg("howzatR")` consists of functions for calculating various cricket statistics.
 
 #### Esports 🎮
 
@@ -130,6 +133,10 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 
 -   `r pkg("SwimmeR")` reads swimming results in a variety of formats and returns results in tidy data frame. It also includes functions for converting times between short-course yards (SCY), short-course meters (SCM), and long-course meters (LCM).
 
+#### Tennis 🎾
+
+-   `r pkg("matchpointR")` consists of functions for accessing Women's Tennis Association (WTA) data.
+
 #### Track and Field 🏃
 
 -   `r pkg("combinedevents")` contains functions for calculating scores and marks for combined events competitions in track and field, based on the [International Association of Athletics Federation](https://www.worldathletics.org/) scoring tables.
@@ -145,11 +152,12 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("colorr")` contains color palettes for professional sports teams in the EPL, MLB, NBA, NHL, and NFL.
 -   `r pkg("nbapalettes")` contains color palettes inspired by NBA team jersey colors.
 -   `r pkg("gameR")` contains color palettes inspired by video games.
--   `r pkg("sportyR")` contains functions for creating **ggplot2** representations of sports playing surfaces pursuant to rule-book specifications. This is particularly useful for plotting player tracking data.
+-   `r pkg("sportyR", priority = "core")` contains functions for creating **ggplot2** representations of sports playing surfaces pursuant to rule-book specifications. This is particularly useful for plotting player tracking data.
 -   `r pkg("SportsTour")` provides functions for displaying tournament fixtures using knock-out and round robin methods.
 -   `r pkg("ProSportsDraftData")` offers draft data for the major North American professional sports leagues, including NFL, NBA, and NHL.
 -   `r pkg("injurytools")` provides functionality for analyzing, visualizing, and modeling sports injuries.
 -   `r pkg("ISAR")` contains datasets used in the textbook [*Introduction to Sports Analytics using R*](https://www.prospectpressvt.com/textbooks/elmore-sports-analytics).
+-   `r pkg("usportsR")` provides tools for extracting and analyzing [U Sports](https://en.usports.ca) data.
 
 ###  Modeling
 
