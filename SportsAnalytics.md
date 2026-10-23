@@ -171,6 +171,7 @@ In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("Functi
 -   `r pkg("implied")` is a collection of functions that convert between bookmaker odds and probabilities, based on various algorithms.
 -   `r pkg("pinnacle.data")` contains [Pinnacle](https://www.pinnacle.com/) market odds, highlighted by a dataset of all wagering lines for the 2016 MLB season.
 -   `r pkg("RKelly")` computes the [Kelly criterion](https://doi.org/10.1002/j.1538-7305.1956.tb03809.x) for betting and provides functions to calculate outcome probabilities for multi-leg contests.
+-   `r pkg("betbetter")` retrieves model win probabilities and fair odds from the free [Bet Better](https://betbetter.world/api/) JSON feeds for several leagues, with no API key required.
 
 #### Ratings
 
