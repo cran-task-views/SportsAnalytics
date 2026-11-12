@@ -158,6 +158,7 @@ Contributions are always welcome, and encouraged -- please see the linked GitHub
 -   `r pkg("injurytools")` provides functionality for analyzing, visualizing, and modeling sports injuries.
 -   `r pkg("ISAR")` contains datasets used in the textbook [*Introduction to Sports Analytics using R*](https://www.prospectpressvt.com/textbooks/elmore-sports-analytics).
 -   `r pkg("usportsR")` provides tools for extracting and analyzing [U Sports](https://en.usports.ca) data.
+-   `r pkg("PPCSexRx")` A clinical decision support system for sub-symptom threshold aerobic exercise (SSTAE) prescription in adolescents with persistent post-concussion symptoms (PPCS) [Li (2026)](doi:10.17605/osf.io/kvuf6). 
 
 ###  Modeling
 
