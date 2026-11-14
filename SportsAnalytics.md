@@ -168,6 +168,7 @@ In addition, other CRAN Task Views such as `r view("Bayesian")`, `r view("Functi
 #### Betting
 
 -   `r pkg("oddsapiR")` provides tools for accessing sports odds from [The Odds API](https://the-odds-api.com).
+-   `r pkg("oddsapiio")` is a client for the [Odds-API.io](https://odds-api.io) API, returning pre-match and live odds, historical closing lines and bet settlement from 450+ bookmakers as data frames.
 -   `r pkg("odds.converter")` contributes functions for converting common sports betting odds types, including US odds, Hong Kong odds, Decimal odds, Indonesian odds, Malaysian odds, and raw probability.
 -   `r pkg("implied")` is a collection of functions that convert between bookmaker odds and probabilities, based on various algorithms.
 -   `r pkg("pinnacle.data")` contains [Pinnacle](https://www.pinnacle.com/) market odds, highlighted by a dataset of all wagering lines for the 2016 MLB season.
